@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 
 # GLOVE embedding
-./data/glove.6B.100d.txt
+data/glove.6B.100d.txt
+
