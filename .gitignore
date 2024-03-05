@@ -161,4 +161,6 @@ cython_debug/
 
 # GLOVE embedding
 data/glove.6B.100d.txt
+data/ner.txt
+
 
