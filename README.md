@@ -39,5 +39,5 @@ Both rule-based vectorization (TFIDF) and machine learning word embeddings (GloV
 
 ### Understanding BERT
 
-BERT stands for Bidirectional Encoder Representations from Transformers. Unlike GloVe which is a non contextual embedding, BERT it is a
+BERT stands for Bidirectional Encoder Representations from Transformers. Unlike GloVe which is a non contextual embedding, BERT it is a contextualized word embe
 
