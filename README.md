@@ -9,8 +9,15 @@ This project is designed to develop a machine learning model that aims to accura
 ### Dataset and Testing Methodology
 The dataset consists of audit documentations of Finnish companies in the financial market with ~3.8K sentences/data points in the training set, and ~1k in testing set. ~4.8k data points in total labeled with bad, neutral, or good sentiments. It is sourced from [huggingface](https://huggingface.co/datasets/FinanceInc/auditor_sentiment?row=1)
 
+The auditors' texts in the dataset discuss a range of topics on the company's state of financial metrics as well as updates and trends with their current operations. In terms of word distributions, there are a lot of overlaps in high count frequency words across different classes of sentiments given the nature of the dataset (like Finnish) and that it can be on similar topics with different sentiments in different context (like 'net sale' or 'operating profit'). 
 
+Both rule-based vectorization and machine learning word embeddings were used to extract text features. TFIDF, then GloVe embedding and BERT embedding were explored to find the best performing model. 
 
 ### Tested Models and Performance Metrics
-1.	Random Fo
+1.  TFIDF
+  1a. 
+2.	Random forrest
+4.	Support Vector Machine
+5.	
+6.	
 
