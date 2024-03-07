@@ -11,13 +11,29 @@ The dataset consists of audit documentations of Finnish companies in the financi
 
 The auditors' texts in the dataset discuss a range of topics on the company's state of financial metrics as well as updates and trends with their current operations. In terms of word distributions, there are a lot of overlaps in high count frequency words across different classes of sentiments given the nature of the dataset (like Finnish) and that it can be on similar topics with different sentiments in different context (like 'net sale' or 'operating profit'). 
 
-Both rule-based vectorization and machine learning word embeddings were used to extract text features. TFIDF, then GloVe embedding and BERT embedding were explored to find the best performing model. 
+**Bad reviews**
+
+![image](https://github.com/sunnywithcurlyhair/DS_Project_5/assets/151488038/eff6712b-1ab1-4c6d-bdfb-e41d68715387) 
+
+**Neutral reviews**
+
+![image](https://github.com/sunnywithcurlyhair/DS_Project_5/assets/151488038/a72402de-2917-4f17-a7ed-f145593be57b) 
+
+**Good reviews**
+
+![image](https://github.com/sunnywithcurlyhair/DS_Project_5/assets/151488038/8e8c946e-fc84-43a5-bf8e-948dbb9bcc9b)
+
+
+Both rule-based vectorization (TFIDF) and machine learning word embeddings (GloVe, BERT) were explored to extract text features to find the best performing model. Through the iterations of different models, cross validaition and tuning, our understanding was confirmed that it is important for a model to learn from the context of our subject corpus to develop an accurate predictions.    
+
 
 ### Tested Models and Performance Metrics
 1.  TFIDF
-  1a. 
-2.	Random forrest
-4.	Support Vector Machine
-5.	
+  1a. Mutinomial Naive Bayes - Accuracy ~
+  1b.
+2.	GloVe
+  2a. Random Forrest
+  2b.	Support Vector Machine
+  2c. Extreme Gradient Boosting
 6.	
 
